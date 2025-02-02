@@ -1,18 +1,79 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
+# Ignore Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
 [Bb]in/
+[Oo]bj/
+*.msi
+*.msm
+*.msp
+*.msix
+*.msixbundle
+*.pdb
+*.cache
 
-# Other files and folders
-.settings/
+# Ignore NuGet packages and restore files
+[Nn]u[Gg]et/
+*.nupkg
+packages/
+.nuget/
+nuget.exe
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Ignore local development files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Ignore ReSharper files
+_ReSharper.*
+*.ReSharper
+*.DotSettings.user
+
+# Ignore Azure Functions local settings
+local.settings.json
+
+# Ignore test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignore logs and diagnostics
+*.log
+*.log.*
+*.tmp
+*.temp
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+*.xml
+
+# Ignore publish output
+publish/
+*.pubxml
+
+# Ignore Rider-specific files
+.idea/
+*.sln.iml
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Node.js and npm files
+node_modules/
+npm-debug.log
+
+# Ignore Azure App Service files
+*.azurewebsites.net
+
+# Ignore JetBrains Rider files
+.idea/
+*.sln.iml
+
+# Ignore VS Code files
+.vscode/
