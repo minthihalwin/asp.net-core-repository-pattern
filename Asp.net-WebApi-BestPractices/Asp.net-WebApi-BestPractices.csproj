@@ -13,6 +13,9 @@
     <Folder Include="Extensions\ServiceExtensions\" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
     <ProjectReference Include="..\LoggerService\LoggerService.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
