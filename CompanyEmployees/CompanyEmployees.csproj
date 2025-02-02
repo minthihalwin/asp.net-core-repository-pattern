@@ -13,6 +13,7 @@
     <Folder Include="Extensions\ServiceExtensions\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
     <ProjectReference Include="..\LoggerService\LoggerService.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
